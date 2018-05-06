@@ -114,6 +114,8 @@ public class Board implements Comparable<Board> {
 
         }
 
+        this.calcCost(); //  After moving queens, recalculate cost
+
     }
 
     // The fitness function in this case is the number of attacking queens given a certain board configuration.
